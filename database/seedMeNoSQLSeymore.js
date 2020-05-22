@@ -28,7 +28,6 @@ class listingsStream extends Readable {
     this.count = 0;
   }
   _read() {
-    // for (let i = 0; i < 100; i += 1) {
     if (this.count === 10000000) {
       return;
     }
@@ -38,14 +37,10 @@ class listingsStream extends Readable {
       isSaved: faker.random.boolean(),
       listingPhotos: generateListingPhotos(),
     }
-    // listingsArray.push(listingObj);
     this.push(JSON.stringify(listingObj) + '\n');
     this.count++;
   }
-  // }
 }
 
 const listings = new listingsStream();
 listings.pipe(wstream);
-
-// module.exports = generateListings;
