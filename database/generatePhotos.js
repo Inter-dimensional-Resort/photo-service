@@ -19,7 +19,7 @@ const generateListingPhotos = () => {
     // If the randomPhoto has not been used yet, create the photo object with that index.
     if (!usedPhotos.includes(randomPhoto)) {
       const photoObj = {
-        url: `https://fec-airbnb-photos.s3-us-west-1.amazonaws.com/${randomPhoto}.jpg `,
+        url: `https://fec-airbnb-photos.s3-us-west-1.amazonaws.com/${randomPhoto}.jpg`,
         desc: faker.lorem.sentence(),
         isVerified: faker.random.boolean(),
       };

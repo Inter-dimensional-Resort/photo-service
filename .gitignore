@@ -26,3 +26,5 @@ mocks/
 
 # 10m data entries stay at home
 theBigBadBuckaroos.json
+info.csv
+photos.csv
