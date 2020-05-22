@@ -23,3 +23,6 @@ coverage
 # Compiled Dirs (http://nodejs.org/api/addons.html)
 build/
 mocks/
+
+# 10m data entries stay at home
+theBigBadBuckaroos.json
