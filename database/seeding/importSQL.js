@@ -6,7 +6,7 @@ const exec = util.promisify(require('child_process').exec);
 const { PG_STRING } = process.env;
 
 async function imp() {
-    const { stdout, stderr } = await exec(`${PG_STRING} \i ../schema.sql`);;
+    const { stdout, stderr } = await exec(`${PG_STRING} listings \i ../../schema.sql`);;
     console.log('stdout:', stdout);
     console.log('stderror:', stderr);
 }
