@@ -25,6 +25,7 @@ build/
 mocks/
 
 # 10m data entries stay at home
-theBigBadBuckaroos.json
+theBigBadBuckaroos.jsonl
 info.csv
 photos.csv
+.env
