@@ -4,10 +4,16 @@
 
 ## Related Projects
 
+> Legacy code base:
   - https://github.com/hacker-home/Airbnb-info
   - https://github.com/hacker-home/Airbnb-booking
   - https://github.com/hacker-home/Airbnb-reviews
   - https://github.com/hacker-home/Airbnb-more-homes
+> Current project:
+  - https://github.com/Team-Inspiration-HR/booking
+  - https://github.com/Team-Inspiration-HR/Listing
+  - https://github.com/Team-Inspiration-HR/photo-service
+  - https://github.com/Team-Inspiration-HR/Airbnb-reviews
 
 ## Table of Contents
 
